@@ -5,47 +5,36 @@ This projects allows the procedural generation of plant-like meshes, either manu
 
 
 - open_blender_xplantform.bat
-- 
-	Opens the .blend file that allows manual generation of plantforms
+Opens the .blend file that allows manual generation of plantforms
 
 Modules are as follows:
 
 - blender
-- 
-	Holds scripts and .blend files to run the rendering parts of the system.
+Holds scripts and .blend files to run the rendering parts of the system.
 
 	- imagegeneration
-	- 
-		Helper classes and .blend files to generate good PNG images of the results
+	Helper classes and .blend files to generate good PNG images of the results
 
 	- operators
-	- 
-		A collection of Blender operators to perform different tasks
+	A collection of Blender operators to perform different tasks
 
 	- output
-	- 
-		The output folder where rendered meshes and images are placed
+	The output folder where rendered meshes and images are placed
 
 	- render
-	- 
-		Classes that use blender to render a pString to screen
+	Classes that use blender to render a pString to screen
 
 	- textures
-	- 
-		The input folder from which textures are loaded
+	The input folder from which textures are loaded
 
 - grammar
-- 
-	Holds classes to create pL-systems
+Holds classes to create pL-systems
 
 - iga
-- 
-	Holds classes to run an Interactive Genetic Algorithm and communicate with HTTP servers
+Holds classes to run an Interactive Genetic Algorithm and communicate with HTTP servers
 
 - procedural
-- 
-	Holds classes that allow the procedural generation of pL-systems
+Holds classes that allow the procedural generation of pL-systems
 
 - turtles
-- 
-	Holds classes that render a pL-string to a Turtle representation
+Holds classes that render a pL-string to a Turtle representation
